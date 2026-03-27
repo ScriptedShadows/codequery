@@ -1,4 +1,3 @@
-CodeQuery
 I got tired of Googling pandas syntax for the 50th time. So I built this.
 CodeQuery lets you ask questions about Python library docs in plain English and get back actual answers — with code examples, cited sources, and no hallucinated API methods that don't exist.
 
