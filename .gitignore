@@ -1,0 +1,9 @@
+.env
+__pycache__/
+*.pyc
+chroma_db/
+node_modules/
+frontend/dist/
+.DS_Store
+.vite/
+dump.rdb
