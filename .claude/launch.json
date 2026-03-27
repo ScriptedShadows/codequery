@@ -1,0 +1,23 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "CodeQuery FastAPI Backend",
+      "runtimeExecutable": "/usr/local/bin/python3",
+      "runtimeArgs": ["-m", "uvicorn", "app.main:app", "--reload", "--host", "127.0.0.1", "--port", "8001", "--app-dir", "backend"],
+      "port": 8001
+    },
+    {
+      "name": "Redis (Semantic Cache)",
+      "runtimeExecutable": "/opt/homebrew/opt/redis/bin/redis-server",
+      "runtimeArgs": ["--port", "6379"],
+      "port": 6379
+    },
+    {
+      "name": "CodeQuery React Frontend",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev", "--prefix", "frontend"],
+      "port": 3000
+    }
+  ]
+}
